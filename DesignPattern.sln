@@ -1,8 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{FE60363A-A43E-4273-AC38-39A7E89F2F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conceptual", "Singleton\Conceptual\Conceptual.csproj", "{7D16BA92-BC0B-461C-9CB4-F1DA25EDF17E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{6C36E83C-702F-4FF0-80D1-F6E9797D2E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conceptual", "FactoryMethod\Conceptual\Conceptual.csproj", "{09BE6ACD-88E7-458F-82F8-293ADE1B3627}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D16BA92-BC0B-461C-9CB4-F1DA25EDF17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D16BA92-BC0B-461C-9CB4-F1DA25EDF17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D16BA92-BC0B-461C-9CB4-F1DA25EDF17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D16BA92-BC0B-461C-9CB4-F1DA25EDF17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09BE6ACD-88E7-458F-82F8-293ADE1B3627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BE6ACD-88E7-458F-82F8-293ADE1B3627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BE6ACD-88E7-458F-82F8-293ADE1B3627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BE6ACD-88E7-458F-82F8-293ADE1B3627}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D16BA92-BC0B-461C-9CB4-F1DA25EDF17E} = {FE60363A-A43E-4273-AC38-39A7E89F2F26}
+		{09BE6ACD-88E7-458F-82F8-293ADE1B3627} = {6C36E83C-702F-4FF0-80D1-F6E9797D2E74}
 	EndGlobalSection
 EndGlobal
