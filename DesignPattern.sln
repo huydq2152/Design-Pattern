@@ -8,6 +8,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conceptual", "FactoryMethod\Conceptual\Conceptual.csproj", "{09BE6ACD-88E7-458F-82F8-293ADE1B3627}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{E6B9908A-B508-46F3-A03B-F9CBD2921194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conceptual", "AbstractFactory\Conceptual\Conceptual.csproj", "{35DBB4F2-60E1-4051-A307-1AB82AECE0BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +26,14 @@ Global
 		{09BE6ACD-88E7-458F-82F8-293ADE1B3627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09BE6ACD-88E7-458F-82F8-293ADE1B3627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09BE6ACD-88E7-458F-82F8-293ADE1B3627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DBB4F2-60E1-4051-A307-1AB82AECE0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DBB4F2-60E1-4051-A307-1AB82AECE0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DBB4F2-60E1-4051-A307-1AB82AECE0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DBB4F2-60E1-4051-A307-1AB82AECE0BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7D16BA92-BC0B-461C-9CB4-F1DA25EDF17E} = {FE60363A-A43E-4273-AC38-39A7E89F2F26}
 		{09BE6ACD-88E7-458F-82F8-293ADE1B3627} = {6C36E83C-702F-4FF0-80D1-F6E9797D2E74}
+		{35DBB4F2-60E1-4051-A307-1AB82AECE0BD} = {E6B9908A-B508-46F3-A03B-F9CBD2921194}
 	EndGlobalSection
 EndGlobal
